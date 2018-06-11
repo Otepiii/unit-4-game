@@ -1,0 +1,103 @@
+body {
+    height:100%;
+    width:100%;
+    position: relative;
+    z-index: -1;
+}
+
+.bg {
+    background-image:url(../images/bg.png);
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    z-index: 0;
+}
+
+.jumbotron {
+    background-color: skyblue;
+    font-size: 26px;
+    color: white;
+    width:500px;
+
+}
+
+#instructions {
+    float: left;
+    background-color: burlywood;
+    color: darkgreen;
+    height: 639px;
+    font-size: 32px;
+    line-height: 96%;
+    padding: 40px;
+}
+
+#main-content {
+    float: left;
+}
+
+#goal {
+    width:px;
+    height:160px;
+    background-color: mediumseagreen;
+}
+
+#score-box {
+    width: 1px;
+    height: 160px;
+    background-color: goldenrod;
+    font-size: 32px;
+    line-height: 200%;
+}
+
+#next-box {
+    clear: left;
+    float: left;
+    margin-top: 40px; 
+}
+
+#stones {
+    clear: left;
+    margin-left: -240px;
+    float: middle;
+    margin-top: 40px;
+}
+
+#space {
+    margin:10px;
+}
+
+#time {
+    margin: 10px;
+}
+
+#soul{
+    margin:10px;
+}
+
+#power {
+    margin: 10px;
+}
+
+#points {
+    background-color:teal;
+    height: 160px;
+    clear: left;
+    float: Left;
+    width: 400px;
+    margin-top: 40px;
+    color: silver;
+}
+
+#total-score {
+    background-color:teal;
+    height: 50px;
+    clear: left;
+    float: Left;
+    width: 400px; 
+    margin-top: 40px;
+    font-size: 32px;
+    padding:5px;
+    color: silver;
+}
